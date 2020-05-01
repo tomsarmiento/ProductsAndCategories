@@ -1,0 +1,14 @@
+@charset "utf-8";
+.categoryform{
+	width:20%; 
+	margin:30px 0px 40px 0px;
+}
+.productform{
+	width:20%;
+}
+.container-fluid{
+	margin-top:20px;
+}
+.newcategory{
+	margin-left:5%;
+}

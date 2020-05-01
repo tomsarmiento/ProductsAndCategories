@@ -1,0 +1,7 @@
+Aprendí a darle diseño a las listas con bootstrap, crear relaciones muchos a muchos usando Spring MVC, entendí que para que la relación se cree debo añadir el objeto a la lista de ese objeto que está en el otro objeto. Por ejemplo, si quiero añadir un producto a una categoría, debo obtener la lista de productos que está en la categoría y añadir el producto nuevo a esa lista, luego guardarlo en la base de datos con repositorio.save() y listo. No es necesario agregar la categoría a la Lista de categorías presente en el producto, pues esto se hace automáticamente.
+
+Estoy empezando a tomarle el ritmo a esto. En general, primero creas el modelo, luego el repositorio, luego el servicio y al final el controlador. Crear el diseño también ayuda a entender mejor el proyecto, por ejemplo, a veces cuando estaba estancado, me ponía a hacer el diseño y se me venían a la mente ideas para resolver los problemas.
+
+Respecto al diseño, JSTL no es tan dificil de ocupar, una vez te acostumbras y le agarras el hilo es bastante útil.
+
+Programar se me hace mucho más fácil cuando antes de comenzar anoto en un bloq de notas que direcciones voy a usar y que métodos debo crear. De esa manera primero lo creo en mi mente y luego lo plasmo en el programa.
