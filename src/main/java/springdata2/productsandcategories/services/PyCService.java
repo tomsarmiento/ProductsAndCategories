@@ -6,22 +6,18 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import springdata2.productsandcategories.models.Category;
-//import springdata2.productsandcategories.models.CategoryProduct;
 import springdata2.productsandcategories.models.Product;
 import springdata2.productsandcategories.repositories.CategoryRepository;
 import springdata2.productsandcategories.repositories.ProductRepository;
-import springdata2.productsandcategories.repositories.PyCRepository;
 
 @Service
 public class PyCService {
 	private final ProductRepository prRepo;
 	private final CategoryRepository caRepo;
-	//private final PyCRepository pycRepo;
 	
-	public PyCService(ProductRepository prRepo, CategoryRepository caRepo, PyCRepository pycRepo) {
+	public PyCService(ProductRepository prRepo, CategoryRepository caRepo) {
 		this.prRepo = prRepo;
 		this.caRepo = caRepo;
-	//	this.pycRepo = pycRepo;
 	}
 	
 	public List<Product> allProducts(){
@@ -88,24 +84,4 @@ public class PyCService {
 		allCategories.removeAll(prCategories);
 		return allCategories;
 	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

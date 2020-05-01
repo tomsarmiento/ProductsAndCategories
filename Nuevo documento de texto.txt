@@ -5,3 +5,5 @@ Estoy empezando a tomarle el ritmo a esto. En general, primero creas el modelo, 
 Respecto al diseño, JSTL no es tan dificil de ocupar, una vez te acostumbras y le agarras el hilo es bastante útil.
 
 Programar se me hace mucho más fácil cuando antes de comenzar anoto en un bloq de notas que direcciones voy a usar y que métodos debo crear. De esa manera primero lo creo en mi mente y luego lo plasmo en el programa.
+
+No es necesario crear un repository para la tabla intermedia que une a dos tablas que están relaciones de muchos a muchos, porque como ya dije, basta con añadir el objeto a la lista de objetos para que se cree la relación.
